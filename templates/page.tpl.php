@@ -1,5 +1,5 @@
 ﻿<!doctype HTML>
-<html class="no-js">
+<html lang="en" class="no-js">
 <head>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title><?php print $head_title; ?></title>
