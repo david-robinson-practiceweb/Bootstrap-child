@@ -386,8 +386,6 @@ header {
   background-color: #428bca;
 }
 
-
-
 /**
  * No JS tweaks
  */
@@ -401,4 +399,14 @@ html.no-js .navbar-toggle {
   display: none;
 }
 
-
+/**
+ * Move left hand sidebar to bottom of content
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas-left .sidebar-offcanvas {
+    position: relative !important;
+    left: 0px !important;
+    width: 100%;
+    display: block !important;
+  }
+}
