@@ -196,8 +196,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Search</h4>
-        </div>
+	  <label class="modal-title" for="edit-search-theme-form-1">Search</label> 
+	</div>
         <div class="modal-body">
           <?php print $search_box; ?>
         </div>
