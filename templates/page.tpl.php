@@ -212,9 +212,6 @@
   <script>
 		$(document).ready(function() {
       $('html').removeClass('no-js');
-			$('[data-toggle=offcanvas]').click(function() {
-				$('.row-offcanvas').toggleClass('active');
-			});
 		});
 	</script>   
   
