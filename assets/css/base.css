@@ -175,6 +175,15 @@ header {
 			clear: right
 		}
 
+		header .contact-details-inner {
+  			margin-top: 10px;
+  			font-size: 18px;
+  			font-family: "Open Sans";
+  			font-weight: 500;
+  			line-height: 1.1;
+  			display: inline-block;
+		} 
+
 
 /**
  * Primary navigation

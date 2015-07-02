@@ -40,13 +40,14 @@
 			</div>
       <?php if(!empty($company_phone) || !empty($site_mail)) { ?>
 			<div class="contact-details pull-right">
-				<h4>
+        <span class="contact-details-inner">		
           <?php print $company_phone; ?>
           <?php if(!empty($company_phone) && !empty($site_mail)) print ' / '; ?>
-           <?php if(!empty($site_mail)) {
-            print '<a href="' . $site_mail . '" title="Email us">' . $site_mail . '</a></h4>';
-           } ?>
-			</div>
+          <?php if(!empty($site_mail)) {
+	          print '<a href="' . $site_mail . '" title="Email us">' . $site_mail . '</a>';
+          } ?>
+	      </span>				
+	     </div>
       <?php }; ?>
 		</div>
 	</header>
