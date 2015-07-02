@@ -115,9 +115,6 @@
           print $breadcrumb;
         print '</div>';
       };
-      if ($left) {
-        print '<button type="button" class="btn btn-default btn-sm btn-block" data-toggle="offcanvas">' . $mobile_offcanvas_btn_text . '</button>';
-      };
     print '</div>';
   } ?>
     
