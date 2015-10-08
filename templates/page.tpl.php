@@ -137,7 +137,11 @@
           <h1><?php print $title; ?></h1>
           <?php print $tabs; ?>
         <?php }; ?>
-        
+
+        <?php if ($feed_icons): ?>
+          <div class="feed-icons page-top"><?php print $feed_icons; ?></div>
+        <?php endif; ?>
+
         <?php if (!$is_front || $layout_front_display_page_content == TRUE) { ?>
           <?php print $content; ?>
         <?php }; ?>
